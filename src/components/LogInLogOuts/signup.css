@@ -1,0 +1,121 @@
+/* .main_container_signup {
+  height: 100%;
+  
+  margin-top: 0;
+} */
+.main_container_signup {
+  background: linear-gradient(
+    rgb(253, 233, 242) 0%,
+    rgb(253, 240, 232) 100%,
+    rgb(253, 240, 232) 100%
+  );
+}
+.cont_signup {
+  width: 433px;
+  height: 708px;
+  border-radius: 8px;
+  border: 1px solid rgb(240, 240, 240);
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+#imgScont img {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.input_cont_signUp {
+  height: 202px;
+  width: 335px;
+  margin: auto;
+  text-align: center;
+}
+#inCont {
+  margin-top: 20px;
+}
+.input_cont_signUp > div {
+  margin-top: 26px;
+}
+.inBox_Number {
+  height: 56px;
+  margin-top: 10px;
+  display: flex;
+}
+.txt_head {
+  font-size: 20px;
+  font-weight: 700;
+}
+.cnty {
+  font-size: 12px;
+  padding: 2px 0px;
+  line-height: 16px;
+  font-style: normal;
+}
+.numb_Si {
+  margin-top: auto;
+}
+.in_box_num {
+  border: none;
+  padding-top: 6px;
+  margin-left: 20px;
+}
+.btn_otp {
+  width: 100%;
+  cursor: pointer;
+  font-style: normal;
+  text-align: center;
+  letter-spacing: 0.0015em;
+  font-size: 15px;
+  line-height: 20px;
+  border-radius: 4px;
+  color: rgb(255, 255, 255);
+  background: rgb(244, 51, 151);
+  border: none;
+  padding: 12px;
+  margin-top: 40px;
+}
+#tnC {
+  margin-bottom: 20px;
+  width: fit-content;
+  margin: auto;
+  margin-top: 200px;
+  font-size: 12px;
+}
+.colGra {
+  color: rgb(153, 153, 153);
+}
+.colB {
+  color: rgb(244, 51, 151);
+}
+#userNumber {
+  margin-top: 50px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.gAnXkY {
+  height: 3.25rem;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  text-align: center;
+  border-width: 0px 0px 1px;
+  border-color: rgb(153, 153, 153);
+  border-style: solid;
+  outline: none;
+  margin: 0px 8px;
+  width: 2.5625rem !important;
+}
+#ver_btn {
+  width: 100%;
+  background-color: rgb(244, 51, 151);
+  text-align: center;
+  padding: 12px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-style: normal;
+  letter-spacing: 0.0015em;
+  font-size: 18px;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+}
