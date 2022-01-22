@@ -2,8 +2,9 @@ import {
   ADD_DATA_ERROR,
   ADD_DATA_LOADING,
   ADD_DATA_SUCCESS,
+  LOG_OUT_USER,
 } from "./actionTypes";
-const init = { productData: [] };
+const init = { productData: [], getData: null };
 export const reducer = (state = init, { type, payload }) => {
   switch (type) {
     case ADD_DATA_LOADING:
@@ -23,7 +24,11 @@ export const reducer = (state = init, { type, payload }) => {
         loading: false,
         error: payload,
       };
-
+    case LOG_OUT_USER:
+      return {
+        ...state,
+        getData: payload,
+      };
     default:
       return state;
   }

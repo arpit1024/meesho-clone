@@ -2,11 +2,11 @@ import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
 import { addDATAError, addDataLoading, addDATASuccess } from "../store/actions";
-
+import { Navbar } from "./header-footer'/Navbar";
 export const Home = () => {
   const dispatch = useDispatch();
   const { productData } = useSelector((state) => ({
-    productData: state.productData,
+    productData: state.addDataReducer.productData,
   }));
   const some = (id) => {
     console.log("ID", id);

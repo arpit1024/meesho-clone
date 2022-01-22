@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+* {
+  font-family: "Mier demi";
+}
+.App {
+  text-align: center;
+}
+/* next footer part */
+.body-text {
+  color: rgb(51, 51, 51) !important;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px !important;
+  line-height: 24px;
+  font-family: "Mier demi" !important;
+  text-align: initial;
+  margin: 0px;
+  padding: 0px;
+}
+.footer-h {
+  text-align: left !important;
+  font-size: 20px;
+  color: rgb(51, 51, 51);
+  margin: 10px 0px 7px 0px;
+}
+.footer-des {
+  font-size: 16px;
+  font-family: "Mier demi";
+  color: rgb(102, 102, 102);
+  font-weight: 600;
+  text-align: left;
+  margin: 0%;
+  padding: 0%;
+}
+.footer-des2 {
+  font-size: 18px;
+  font-family: "Mier demi";
+  color: rgb(102, 102, 102);
+  font-weight: 600;
+  text-align: left;
+  margin: 0%;
+  padding: 0%;
+}
+.footer-link {
+  color: rgb(244, 51, 151);
+  text-decoration: none;
+  cursor: pointer;
+  font-family: "Mier demi";
+}
+.footer-link:hover {
+  color: rgb(244, 51, 151);
+}
+.link-sep {
+  color: rgb(102, 102, 102);
+}
+.footer-part {
+  width: 98%;
+  margin: 0% 1%;
+  margin-bottom: 10px;
+}

@@ -2,6 +2,7 @@ import {
   ADD_DATA_ERROR,
   ADD_DATA_LOADING,
   ADD_DATA_SUCCESS,
+  LOG_OUT_USER,
 } from "./actionTypes";
 
 export const addDataLoading = () => ({
@@ -13,5 +14,9 @@ export const addDATASuccess = (data) => ({
 });
 export const addDATAError = (data) => ({
   type: ADD_DATA_ERROR,
+  payload: data,
+});
+export const logOutUser = (data) => ({
+  type: LOG_OUT_USER,
   payload: data,
 });

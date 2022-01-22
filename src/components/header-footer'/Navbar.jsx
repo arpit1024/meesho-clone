@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export const Navbar = () => {
   const [show, setShow] = useState(null);
   const [user, setUser] = useState(0);
+
   const logOutUser = () => {
     localStorage.setItem("meesho-user-number", null);
     setUser(null);
@@ -197,7 +199,11 @@ export const Navbar = () => {
                     stroke-width="1.5"
                   ></ellipse>
                 </svg>
-                <div>Cart</div>
+                <div>
+                  <Link to="/cart" className="linkTAGS">
+                    Cart
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
