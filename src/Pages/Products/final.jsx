@@ -1,5 +1,5 @@
 import "./card.css";
-import axios from "axios";
+
 import { useEffect, useState } from "react";
 import { FaPercentage } from "react-icons/fa";
 import { FaRupeeSign } from "react-icons/fa";
