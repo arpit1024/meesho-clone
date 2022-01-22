@@ -3,3 +3,4 @@ export const ADD_DATA_SUCCESS = "ADD_TODO_SUCCESS";
 export const ADD_DATA_ERROR = "ADD_TODO_ERROR";
 
 export const LOG_OUT_USER = "LOG_OUT_USER";
+export const SET_PRODUCT_DATA = "SET_PRODUCT_DATA";

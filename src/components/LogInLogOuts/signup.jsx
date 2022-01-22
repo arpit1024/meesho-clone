@@ -20,7 +20,7 @@ export const Signup = () => {
       alert("Number should be of 10 digits");
     }
   };
-
+  //https://meeshoclone-1.herokuapp.com/getProducts
   console.log(otp);
   const setOtpFunc = () => {
     if (otp) {

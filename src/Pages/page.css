@@ -1,0 +1,201 @@
+.productView{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    font-family:   Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+.productMainimg{
+    width: 70%;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 5px;
+}
+.AddtoCart{
+    background-color: rgb(234,83,150);
+    color: white;
+    font-size: 19px;
+    width: 70%;
+    margin:auto;
+    margin-top: 50px;
+}
+.cartIcon{
+    margin-right: 15px;
+    font-size: 15px ;
+}
+.soldBy{
+
+}
+.viewShop{
+    display: flex;
+    flex-wrap: wrap;
+}
+.SellersHeading{
+    font-size: 19px;
+}
+.viewShopButton{
+    color: rgb(234,83,150);
+    border: 2px solid rgb(234,83,150) ;
+    background-color: white;
+    font-size: 19px;
+    height: 50px;
+    margin-top: 15px;
+}
+.houseIcon > img{
+    width: 70px;
+    height: 70px;
+}
+.sellersRating{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* trusted div */
+
+.trusted{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mlogo{
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+}
+.trustedPara{
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 20px;
+    overflow: y;
+    margin: 15px;
+    border:1px solid rgb(236, 236, 236);
+    padding: 25px;
+    border-radius: 5px;
+}
+.logoDescription{
+    font-size: 15px;
+    color: rgb(234,77,128);
+    font-weight: 700;
+    background-color: rgb(251,233,242);
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.bottomPage{
+    display: flex;
+    flex-wrap: wrap;
+    width: 93%;
+    margin-left: 15px;
+    background-color: rgb(231,238,254);
+    border-radius: 5px;
+}
+.bottomPageAlign{
+display: flex;
+flex-wrap: wrap;
+width: 30%;
+justify-content: center;
+padding: 10px;
+}
+.logoDesc{
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 10px;
+    color: rgb(51,51,51);
+}
+.card-body{
+    width: 100%;
+}
+.card-title{
+    color: rgb(153, 153, 153);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.freeDelivery{
+    width: 30%;                         
+}
+
+.startingOffer{
+    color: rgb(153, 153, 153);
+}
+.badge{
+    background-color: rgb(249,249,249);
+    color: rgb(102,102,138);
+}
+.percentage{
+    color: green;
+    size:25px;
+}
+.ratings{
+    color: rgb(102,102,138);
+    font-size: small;
+}
+.currentPrice{
+    color: rgb(51, 51, 51);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+  
+} 
+.actualPrice{
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.discount{
+
+    color: rgb(3, 141, 99);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.price{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.price > div{
+    margin-right: 20px;
+}
+.startingOffer{
+    margin: 10px;
+    color: rgb(102, 102, 102);
+    font-style: normal;
+    font-weight: 400;
+}
+.freeDelivery{
+    margin: 10px;
+}
+.ratings{
+    margin: 10px;
+    height: 25px;
+}
+.badge{
+    font-size: 15px;
+}
+.FaStar{
+    margin-left: 10px;
+}
+.productDiscription {
+    color: rgb(153, 153, 153);
+    font-style: normal;
+    font-weight: 400;
+    overflow: y;
+    border:1px solid rgb(236, 236, 236);
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 93%;
+}
+.productViewRigth{
+    width: 100%;
+}
+.productViewRigth > div{
+    width: 100%;
+}

@@ -1,0 +1,106 @@
+.productFullPage {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1328px;
+  margin-top: 100px;
+}
+
+.productFullPage > div {
+  margin-bottom: 12px;
+}
+.productCard {
+  border: 1px solid rgb(226, 226, 226);
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+.productCard {
+  width: 20%;
+  margin: auto;
+}
+.card-body {
+  width: 100%;
+}
+.card-title {
+  color: rgb(153, 153, 153);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 7px;
+}
+.freeDelivery {
+  width: 30%;
+}
+.productImg {
+  width: 100%;
+  height: 300px;
+  overflow: auto;
+  border-radius: 7px;
+}
+.startingOffer {
+  color: rgb(153, 153, 153);
+}
+.badge {
+  background-color: rgb(249, 249, 249);
+  color: rgb(102, 102, 138);
+}
+.percentage {
+  color: green;
+  size: 25px;
+}
+.ratings {
+  color: rgb(102, 102, 138);
+  font-size: small;
+}
+.currentPrice {
+  color: rgb(51, 51, 51);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.actualPrice {
+  color: rgb(153, 153, 153);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 6px;
+}
+.discount {
+  color: rgb(3, 141, 99);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 6px;
+}
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.price > div {
+  margin-right: 20px;
+}
+.startingOffer {
+  margin: 10px;
+  color: rgb(102, 102, 102);
+  font-style: normal;
+  font-weight: 400;
+}
+.freeDelivery {
+  margin: 10px;
+}
+.ratings {
+  margin: 10px;
+  height: 25px;
+}
+.badge {
+  font-size: 15px;
+}
+.FaStar {
+  margin-left: 10px;
+}

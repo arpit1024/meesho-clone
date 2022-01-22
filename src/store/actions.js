@@ -3,6 +3,7 @@ import {
   ADD_DATA_LOADING,
   ADD_DATA_SUCCESS,
   LOG_OUT_USER,
+  SET_PRODUCT_DATA,
 } from "./actionTypes";
 
 export const addDataLoading = () => ({
@@ -18,5 +19,9 @@ export const addDATAError = (data) => ({
 });
 export const logOutUser = (data) => ({
   type: LOG_OUT_USER,
+  payload: data,
+});
+export const setProductData = (data) => ({
+  type: SET_PRODUCT_DATA,
   payload: data,
 });
