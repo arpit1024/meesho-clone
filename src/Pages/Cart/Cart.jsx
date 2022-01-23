@@ -16,7 +16,7 @@ import PriceDetails from "../../components/CartComponents/PriceDetails";
 const Cart = () => {
   const { cart, stage } = useSelector((state) => state.cart, shallowEqual);
   const dispatch = useDispatch();
-
+  console.log("Cart Data",cart[0])
   const history = useNavigate();
 
   const [total, setTotal] = useState(0);

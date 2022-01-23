@@ -7,6 +7,10 @@
 
 #header-container {
   height: 126px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: white;
 }
 #section1-header {
   height: 72px;

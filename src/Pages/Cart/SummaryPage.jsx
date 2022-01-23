@@ -85,8 +85,7 @@ const SummaryPage = () => {
         style={{
           position: "absolute",
           width: "100%",
-          left: "50%",
-          top: "30%",
+          top: "10%",
         }}
         onClose={handleContinue}
         variant="success"

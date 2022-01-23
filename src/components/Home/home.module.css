@@ -22,7 +22,9 @@
     font-weight: bold;
     padding: 2rem;
     text-align: left;
+    margin-bottom: 1%;
   }
+
   .title1 {
     color: rgb(102, 102, 102);
     font-style: normal;
@@ -35,13 +37,13 @@
     height: 28px;
     background-color: white;
     padding: 1rem;
-    margin-top: -15px;
+    margin-top: 2%;
   }
   .button {
     width: 50%;
     height: 48px;
     padding: 1rem;
-    margin-top: 30px;
+    margin-top: 2%;
     display: flex;
     -webkit-box-align: center;
     align-items: center;
@@ -337,7 +339,7 @@
     height: fit-content;
     background-color: white;
     padding: 1rem;
-    margin-top: 40px;
+    margin-top: 2%;
   }
   .button {
     width: 55%;
@@ -359,6 +361,7 @@
     font-family: "Mier demi";
     margin-left: 20px;
     padding: 0px 0px 0px 16px;
+    margin-top: 2%;
   }
   .button img {
     border-style: none;

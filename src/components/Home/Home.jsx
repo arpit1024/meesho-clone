@@ -34,7 +34,7 @@ const Home = () => {
         <div className={styles.container}>
           <div className={styles.title}>
             Lowest Prices
-            <div>Best Quality Shopping</div>
+            <div id="b_qual">Best Quality Shopping</div>
           </div>
           <div className={styles.title1}>50 lakh+ Styles | 650+ categories</div>
           <div className={styles.button}>
@@ -51,7 +51,7 @@ const Home = () => {
       </div>
       <div className={styles.banner1}>
         <div className={styles.img}>
-          <Link to="/cat">
+          <Link to="/products">
             <img
               onClick={getSares}
               src="https://images.meesho.com/images/marketing/1631611172021.png"
@@ -59,7 +59,7 @@ const Home = () => {
           </Link>
         </div>
         <div className={styles.temp}>
-          <Link to="/cat">
+          <Link to="/products">
             <img
               onClick={getDreses}
               src="https://images.meesho.com/images/marketing/1631610854491.png"
@@ -67,7 +67,7 @@ const Home = () => {
           </Link>
         </div>
         <div className={styles.temp}>
-          <Link to="/cat">
+          <Link to="/products">
             <img
               onClick={getMenswares}
               src="https://images.meesho.com/images/marketing/1631611208025.png"
@@ -75,7 +75,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <Link style={{ textDecoration: "none" }} to="/cat">
+      <Link style={{ textDecoration: "none" }} to="/products">
         <div onClick={homeCare} className={styles.banner2}>
           <div className={styles.tbox}>
             <span>Homecare</span>

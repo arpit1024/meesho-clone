@@ -13,7 +13,7 @@ export const CartRoutes = () => {
       <Route exact path="/cart/checkout" element={<CheckoutPage />}></Route>
       <Route exact path="/cart/payment" element={<PaymentPage />}></Route>
       <Route exact path="/cart/summary" element={<SummaryPage />}></Route>
-      <Route path="*" element={<div>Not Found</div>}></Route>
+      <Route path="*" element={<div> </div>}></Route>
     </Routes>
   );
 };

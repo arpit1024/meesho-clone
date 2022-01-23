@@ -1,12 +1,15 @@
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import "./Navbar.css";
 
 export const Navbar = () => {
   const [show, setShow] = useState(null);
   const [user, setUser] = useState(0);
-
+  const navigate = useNavigate();
+  const linktee = () => {
+    navigate("/products");
+  };
   const logOutUser = () => {
     localStorage.setItem("meesho-user-number", null);
     setUser(null);
@@ -215,7 +218,7 @@ export const Navbar = () => {
               onMouseEnter={() => setShow("womenE")}
               onMouseLeave={() => setShow(null)}
             >
-              <div>Women Ethnic</div>
+              <div onClick={linktee}>Women Ethnic</div>
               {show === "womenE" ? (
                 <div className="ddL" id="wowW">
                   <div>
@@ -247,7 +250,7 @@ export const Navbar = () => {
               onMouseEnter={() => setShow("womenW")}
               onMouseLeave={() => setShow(null)}
             >
-              <div>Women Western</div>
+              <div onClick={linktee}>Women Western</div>
               {show === "womenW" ? (
                 <div className="ddL" id="wowW">
                   <div>
@@ -273,7 +276,7 @@ export const Navbar = () => {
               onMouseEnter={() => setShow("womenJ")}
               onMouseLeave={() => setShow(null)}
             >
-              <div>Jewellery & Accessories</div>
+              <div onClick={linktee}>Jewellery & Accessories</div>
               {show === "womenJ" ? (
                 <div className="ddL" id="wowJ">
                   <div>
@@ -299,7 +302,7 @@ export const Navbar = () => {
               onMouseEnter={() => setShow("Men")}
               onMouseLeave={() => setShow(null)}
             >
-              <div>Men</div>
+              <div onClick={linktee}>Men</div>
               {show === "Men" ? (
                 <div className="ddL" id="wowJ">
                   <div>
@@ -319,20 +322,20 @@ export const Navbar = () => {
                 </div>
               ) : null}
             </div>
-            <div onMouseEnter={() => setShow("beauty")}>
+            <div onMouseEnter={() => setShow("beauty")} onClick={linktee}>
               <div>Beauty & Health</div>
             </div>
-            <div onMouseEnter={() => setShow("menH")}>
+            <div onMouseEnter={() => setShow("menH")} onClick={linktee}>
               <div>Men Beauty & Health</div>
             </div>
-            <div onMouseEnter={() => setShow("h&K")}>
+            <div onMouseEnter={() => setShow("h&K")} onClick={linktee}>
               <div>Home & Kitchen</div>
             </div>
-            <div onMouseEnter={() => setShow("kids")}>
+            <div onMouseEnter={() => setShow("kids")} onClick={linktee}>
               <div>Kids</div>
             </div>
             <div onMouseEnter={() => setShow("elec")}>
-              <div>Electronics</div>
+              <div onClick={linktee}>Electronics</div>
             </div>
           </div>
         </div>
