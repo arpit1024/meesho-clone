@@ -51,7 +51,7 @@ export const PageUi = () => {
             <div className="price">
               <div className="currentPrice text-size=">
                 <FaRupeeSign />
-                5000
+                500
               </div>
               <div className="actualPrice">
                 <del>4000</del>
